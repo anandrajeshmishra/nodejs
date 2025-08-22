@@ -1,0 +1,2 @@
+This is the intial data of the txt file
+This is the second line of the txt file and the updated
