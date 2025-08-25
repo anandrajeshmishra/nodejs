@@ -1,0 +1,15 @@
+// event is very important in js
+//for example like onclick event and onsubmit
+//EventEmitter is a core module in node.js used to create and handle custom events.
+// It is part of the events module and is often used for building event driven systems in node.js
+// 1.emit(emitName,[args])
+// purpose: emits(or trigers) an events with the specified eventName.
+//  you can also pass arguments that will be consumed by the listeners
+// It's like calling a function, but instead it triggers all listeners (function) attached to the specified event
+// yaha par ham ek function ko call kar rahe hain
+// ____________________________________________________________________________________________________________
+
+// 2.on 
+// purpose: Attach a listener(a function) to a specific eventName.This listener will execute when the event is emitted
+// yaha par ham ek function ko define karenge upaar .emit mai call and yaha .on mai define karenge
+// ____________________________________________________________________________________________________________
